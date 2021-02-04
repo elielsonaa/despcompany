@@ -1,20 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React,{useState} from 'react';
 import { StyleSheet, Text, View, Button} from 'react-native';
+import Header from './components/Header';
 
 export default function App() {
-  const [novoTexto, setNovoTexto] = useState('Open up App.js to start working on your app!');
   return (
-    <View style={styles.container}>
-      <Text>{novoTexto}</Text>
-      <Button title="Alterar texto principal!" onPress={()=>setNovoTexto("Texto alterado com sucesso!")}/>
-      <StatusBar style="auto" />
-    </View>
+   K
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  screen: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
